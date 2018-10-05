@@ -1,0 +1,23 @@
+table{
+    empty-cells: show;
+    border: solid black 3px;
+    width: 500pt;
+    height: 500pt;
+    border-spacing: 0pt;
+}
+
+tr:first-child > td:first-child, tr:nth-child(3) > td:first-child{
+    background-color: darkgreen;
+}
+
+tr:first-child > td:nth-child(2), tr:nth-child(2) > td:nth-child(2){
+    background-color: red;
+}
+
+tr:nth-child(2) > td:first-child, tr:nth-child(4) > td:first-child{
+    background-color: blue;
+}
+
+tr:nth-child(2) > td:nth-child(3), tr:last-child > td:first-child{
+    background-color: yellow;
+}

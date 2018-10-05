@@ -1,0 +1,42 @@
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #6a7689;
+    color: white;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    font-size: 20pt;
+    color: brown;
+}
+
+#dominatorfes{
+    background-color: aqua;
+    color: black;
+}
+
+#graspopfes{
+    background-color: #6df469;
+    color: black;
+}
+
+#defqonfes{
+    background-color: coral;
+    color: black;
+}
+
+#Top{
+    color: blue;
+}
+
+.festivals{
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.festivals:hover{
+    color: brown;
+    font-size: 16pt;
+}
